@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   color: black;
   max-height: 100%;
   overflow: hidden;
@@ -9,7 +9,7 @@ body {
 /* Top image */
 .topimage {
   position: relative;
-  background: url(/www/img/Food.jfif);
+  background-image: url("/www/AnotherImage.jpg");
   height: 10rem;
   width: 100%;
   background-size: cover;
