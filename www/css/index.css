@@ -1,0 +1,82 @@
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  color: black;
+  max-height: 100%;
+  overflow: hidden;
+}
+/* Top image */
+.topimage {
+  position: relative;
+  background: url(/www/img/Food.jfif);
+  height: 10rem;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.5;
+}
+/* Image ends here */
+/* Heading for landing page begins here*/
+.heading-landing {
+  color: blueviolet;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  margin-top: -2rem;
+}
+.part1 {
+  font-size: 3rem;
+}
+.mid {
+  color: orange;
+}
+/* Heading ends here */
+/* Slang */
+.slang {
+  text-align: center;
+  padding-top: 1rem;
+  line-height: 2rem; /* work here */
+}
+.stext {
+  color: #969696;
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* Slang Ends Here */
+/* More text and buttons here */
+.welcome {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: #969696;
+  font-weight: 800;
+}
+.bottom {
+  text-align: center;
+  line-height: 4.5rem;
+  text-decoration: none;
+}
+.thebutton {
+  background-color: purple;
+  color: #fff;
+  width: 12rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: #fff;
+}
+a::after {
+  color: #fff;
+}
+/* And they end here */
+/* home page begins here */
+.homenav {
+}
