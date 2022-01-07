@@ -1,82 +1,149 @@
-body {
+.app {
   background-color: #fff;
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   color: black;
-  max-height: 100%;
+  height: 100%;
   overflow: hidden;
+  margin: 0px;
 }
-/* Top image */
-.topimage {
-  position: relative;
-  background-image: url("/www/AnotherImage.jpg");
-  height: 10rem;
+
+/* Index page Begins here */
+.homebody {
+  height: 100%;
   width: 100%;
-  background-size: cover;
-  opacity: 0.5;
 }
-/* Image ends here */
-/* Heading for landing page begins here*/
-.heading-landing {
-  color: blueviolet;
-  width: 100%;
+.indexheading {
   text-align: center;
-  font-weight: 900;
-  margin-top: -2rem;
+  padding-bottom: 8rem;
+  padding-top: 3rem;
+  font-family: "Kite One", sans-serif;
 }
-.part1 {
-  font-size: 3rem;
+.indextopic {
+  font-size: 2rem;
 }
-.mid {
-  color: orange;
+.yellowtxt {
+  color: #f48b0c;
 }
-/* Heading ends here */
-/* Slang */
+.bignum {
+  font-size: 4rem;
+  vertical-align: -1rem;
+  font-family: "Satisfy", cursive;
+}
 .slang {
+  padding-bottom: 7rem;
+}
+.indexbody {
   text-align: center;
-  padding-top: 1rem;
-  line-height: 2rem; /* work here */
 }
-.stext {
-  color: #969696;
-  font-size: 1rem;
-  font-weight: 700;
-}
-/* Slang Ends Here */
-/* More text and buttons here */
-.welcome {
-  font-size: 1.5rem;
-  padding-top: 2rem;
-  color: #969696;
-  font-weight: 800;
-}
-.bottom {
-  text-align: center;
-  line-height: 4.5rem;
-  text-decoration: none;
-}
-.thebutton {
-  background-color: purple;
-  color: #fff;
-  width: 12rem;
+.indexbtn {
+  width: 10rem;
   height: 2.5rem;
-  border: none;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 1rem;
-  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 14px;
 }
-a {
-  text-decoration: none;
-}
-a:active {
-  color: #fff;
-}
-a::after {
-  color: #fff;
+.indexphnum {
+  padding-top: 3.2rem;
 }
 /* And they end here */
+
 /* home page begins here */
+/* Home Page Nav Starts*/
 .homenav {
+  background-color: #f48b0c;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  font-weight: bolder;
+  color: #1c232d;
+  font-family: "Licorice", cursive;
+  font-weight: bolder;
 }
+/* Home page nav ends*/
+.homebottom {
+  text-align: center;
+}
+.fullhome {
+  width: 100%;
+  height: 100%;
+}
+.homebtxt {
+  color: #46474b;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Kite One", sans-serif;
+  padding-bottom: 1rem;
+}
+.homebtmlogo {
+  align-items: center;
+  width: 75%;
+  height: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 14px;
+}
+.restmenu {
+  color: #1c232d;
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+  line-height: 0.25rem;
+}
+.homeimgholder {
+  padding-bottom: 5rem;
+}
+
+.hfoot {
+  background-color: #46474b;
+  color: #eee9e6;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: -1rem;
+  text-align: center;
+  vertical-align: bottom;
+}
+/* Home Page ends here*/
+/* Menus */
+.foodtitle {
+  font-weight: bold;
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding-top: 1rem;
+  font-family: "Kite One", sans-serif;
+  font-size: 1rem;
+}
+.fooddescription {
+  width: 75%;
+  margin: auto;
+  padding-top: 1rem;
+  font-family: "Kite One", sans-serif;
+  font-size: 0.75rem;
+}
+.price {
+  width: 75%;
+  margin: auto;
+  text-align: right;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.fooditem {
+  padding-bottom: 2rem;
+}
+.menbtmtxt {
+  padding-bottom: 1.5rem;
+  font-family: "Kite One", sans-serif;
+}
+.menucheck {
+  width: 9rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 14px;
+}
+.menubottom {
+  padding-bottom: 3rem;
+}
+/* Menus End */
