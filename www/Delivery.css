@@ -1,0 +1,47 @@
+body {
+  margin: 10px 15px;
+  padding: 0;
+  font-family: "Kite One", sans-serif;
+  text-align: center;
+  position: relative;
+}
+.Del {
+  background-color: #f48b0c;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  font-weight: bolder;
+  color: #1c232d;
+  font-family: "Licorice", cursive;
+  font-weight: bolder;
+}
+
+/* DARIEN DID THIS*/
+
+.btn1 {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 20px;
+  background: linear-gradient(to top, #46474b 0%, #1c232d 100%);
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Kite One", sans-serif;
+}
+
+.btn2 {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 20px;
+  background: #f48b0c;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Kite One", sans-serif;
+}
