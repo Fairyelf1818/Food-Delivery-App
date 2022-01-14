@@ -19,8 +19,37 @@
     <div class="fullcheckout">
         <div class="homenav">Checkout</div>
         <div class="checkoutbody">
-            <p class="inputcheckbx"><input type="checkbox" name="Food1" id="" value="50" > <h1 class="checkitem">Cat Food</h1></p>
+            <div class="menus">
+                <button type="submit" onclick="return KFCMenu()" class="checkouttopbtn kfcbtn">KFC</button>
+                <button type="submit" onclick="return DominoMenu()" class="checkouttopbtn dominobtn">Domino`s</button>
+                <button type="submit" onclick="return KFCMenu()" class="checkouttopbtn pizzahutbtn">Pizza Hut</button>
+            </div>
+
+            <div class="checkbxbody">
+            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food1" value="50" ><small id="fit1"></small></p>
+            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food2" value="50"><small id="fit2"></small></p>
+            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food3" value="50"><small id="fit3"></small></p>
+
+            <div class="checkoutbtmcontainer">
+            <div class="checkoutbtm">
+                <p class="pricedata">Cost</p>
+                <p class="pricedata">Tax (16.5% GCT)</p>
+                <p class="pricedata">Total</p>
+            </div>
+
+            <div class="checkoutprice">
+                <p class="checkprice" id="costprice"> $100</p>
+                <p class="checkprice" id="gct"> $100</p>
+                <p class="checkprice" id="total"> $100</p>
+            </div>
+            </div>
+            </div>
+            <div class="checkoutbtn">
+                <input type="button" value="Done" class="indexbtn">
+            </div>
         </div>
     </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -149,6 +149,54 @@
 /* Menus End */
 
 /* Checkout Page Begins Here*/
-.inputcheckbx{}
-.checkitem{ }
+.inputcheckbx {
+}
+.checkitem {
+}
+.checkoutbody {
+}
+.checkbxbody {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.checkoutbtmcontainer {
+  padding-top: 3rem;
+  width: 90%;
+  margin: auto;
+}
+.checkoutbtm {
+  width: 50%;
+  float: left;
+  font-size: 1rem;
+}
+.checkoutprice {
+  width: 50%;
+  float: right;
+  font-size: 1rem;
+  text-align: center;
+}
+.checkoutbtn {
+  text-align: center;
+  padding-top: 19rem;
+}
+.checkouttopbtn {
+  width: auto;
+  height: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.kfcbtn {
+  background-color: red;
+}
+.dominobtn {
+  background-color: gray;
+}
+.pizzahutbtn {
+  background-color: orange;
+}
+.menus {
+  padding-top: 1rem;
+  text-align: center;
+  letter-spacing: 1rem;
+}
 /* Checkout Page Ends Here */

@@ -28,7 +28,7 @@
 
 <div class="Del"> Delivery Info</div>
 
-<form>
+<form name="Deliveryform" action="" onsubmit="return DeliveryFormValidation()">
 </br>
 
 <label>Name: <input type="text" name="Name" id="Name"></label>  </br></br>
@@ -42,7 +42,7 @@
 <label>Parish: <input type="text" name="Parish" id="Parish"></label> </br></br>
 
 <label>Phone Number: <input type="text" name="Number" id="PhoneNumber"></label>
-</form>
+
 
 <h1><center>OR</center></h1>
 
@@ -57,9 +57,11 @@
 
 <p><h4>Are you finished? Press the button below</h4></p>
 
-<a href="Confirmation.html">
-<button class="btn2">Confirm Payment</button>
-</a>
 
+<input type="submit" value="Confirm Payment" class="btn2">
+</form>
+
+<script src="./js/index.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
