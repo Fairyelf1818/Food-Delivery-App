@@ -148,55 +148,98 @@
 }
 /* Menus End */
 
-/* Checkout Page Begins Here*/
-.inputcheckbx {
+/* Cart Page Begins Here*/
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
 }
-.checkitem {
+
+.cart-quantity {
+  width: 35%;
 }
-.checkoutbody {
+.cart-item {
+  width: 45%;
 }
-.checkbxbody {
-  padding-left: 2rem;
-  padding-top: 1rem;
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
 }
-.checkoutbtmcontainer {
-  padding-top: 3rem;
-  width: 90%;
-  margin: auto;
+.cart-row {
+  display: flex;
 }
-.checkoutbtm {
-  width: 50%;
-  float: left;
-  font-size: 1rem;
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
 }
-.checkoutprice {
-  width: 50%;
-  float: right;
-  font-size: 1rem;
-  text-align: center;
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
-.checkoutbtn {
-  text-align: center;
-  padding-top: 19rem;
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
 }
-.checkouttopbtn {
-  width: auto;
-  height: 2rem;
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
   border-radius: 10px;
-  font-weight: 700;
 }
-.kfcbtn {
-  background-color: red;
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-.dominobtn {
-  background-color: gray;
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
 }
-.pizzahutbtn {
-  background-color: orange;
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
 }
-.menus {
-  padding-top: 1rem;
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
   text-align: center;
-  letter-spacing: 1rem;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
-/* Checkout Page Ends Here */
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+/* Cart Page Ends Here */

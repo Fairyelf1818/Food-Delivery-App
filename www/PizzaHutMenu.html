@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Kite+One&family=Licorice&family=Lobster&family=Patrick+Hand&family=The+Nautigal:wght@700&display=swap"
         rel="stylesheet">
+       
     <title>Pizza Hut</title>
 </head>
 
@@ -20,36 +21,60 @@
     <div class="homenav"> Pizza Hut</div>
     <div class="homebottom menubottom">
         <p class="homebtxt">What would you like to order? </p>
-
+<section class="pizzaitems">
         <div class="fooditem">
             <img src="./img/Dealsingle.jfif" class="homebtmlogo" alt="">
             <p class="foodtitle">Dealicious Single</p>
             <p class="fooddescription">Medium one-topping retangular pizza</p>
-            <p class="price">$1,600.00</p>
+            <p class="price">$1600.00</p>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
 
         <div class="fooditem">
             <img src="./img/DealDouble.jfif" class="homebtmlogo" alt="">
             <p class="foodtitle">Dealicious Double</p>
             <p class="fooddescription">2 Medium one-topping rectangular pizza</p>
-            <p class="price">$3,250.00</p>
+            <p class="price">$3250.00</p>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
 
         <div class="fooditem">
             <img src="./img/bbq.jfif" class="homebtmlogo" alt="">
             <p class="foodtitle">Barbeque Chicken Pizza</p>
             <p class="fooddescription">Large Barbeque Chicken Pizza</p>
-            <p class="price">$2.750.00</p>
+            <p class="price">$2750.00</p>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
         </div>
-
+    </section>
+    <section class="container-price">
+        <div class=”Cart-Container”>
+            <div class=”Header”>
+                <h3 class=”Heading”>Shopping Cart</h3>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
         <p class="menbtmtxt">Made your mind up? proceed to checkout</p>
-        <a href="./Checkout.html"><button class="menucheck">Checkout</button>
+        <a href="./Delivery.html"><button class="menucheck">Checkout</button>
     </div>
+   
     <footer class="hfoot">
         <p class="copyright">Copyright© 2022 Pedal2Medal</p>
     </footer>
     <script src="./js/index.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/order.js"async></script>
 </body>
 
 </html>

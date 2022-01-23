@@ -14,42 +14,18 @@
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Kite+One&family=Licorice&family=Lobster&family=Patrick+Hand&family=The+Nautigal:wght@700&display=swap"
         rel="stylesheet">
     <title>Checkout</title>
-</head>
-<body>
-    <div class="fullcheckout">
-        <div class="homenav">Checkout</div>
-        <div class="checkoutbody">
-            <div class="menus">
-                <button type="submit" onclick="return KFCMenu()" class="checkouttopbtn kfcbtn">KFC</button>
-                <button type="submit" onclick="return DominoMenu()" class="checkouttopbtn dominobtn">Domino`s</button>
-                <button type="submit" onclick="return KFCMenu()" class="checkouttopbtn pizzahutbtn">Pizza Hut</button>
-            </div>
-
-            <div class="checkbxbody">
-            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food1" value="50" ><small id="fit1"></small></p>
-            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food2" value="50"><small id="fit2"></small></p>
-            <p class="inputcheckbx"><input type="checkbox" name="Food" id="food3" value="50"><small id="fit3"></small></p>
-
-            <div class="checkoutbtmcontainer">
-            <div class="checkoutbtm">
-                <p class="pricedata">Cost</p>
-                <p class="pricedata">Tax (16.5% GCT)</p>
-                <p class="pricedata">Total</p>
-            </div>
-
-            <div class="checkoutprice">
-                <p class="checkprice" id="costprice"> $100</p>
-                <p class="checkprice" id="gct"> $100</p>
-                <p class="checkprice" id="total"> $100</p>
-            </div>
-            </div>
-            </div>
-            <div class="checkoutbtn">
-                <input type="button" value="Done" class="indexbtn">
-            </div>
-        </div>
-    </div>
     <script src="./js/index.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./checkout/order.js"async></script>
+</head>
+<body class="tired">
+    <div class=”Cart-Container”>
+        <div class=”Header”>
+            <h3 class=”Heading”>Shopping Cart</h3>
+            
+            </div>
+            <h5 class=”Action”>Remove all</h5>
+    </div>
+   
 </body>
 </html>
