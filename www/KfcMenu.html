@@ -21,7 +21,7 @@
 
             <div class="fooditem">
                 <img src="./img/KFCfamily12.jpg" class="homebtmlogo" alt="">
-                <p class="foodtitle">Family 12</p>
+                <li class="foodtitle">Family 12</li>
                 <p class="fooddescription">12 Pcs. Chicken, 1 Family Fries, 4 Biscuits, 3 Mashed Potatoes, 3 Coleslaws, 4 Cookies, 1 Pepsi 2L</p>
                 <p class="price">$5300.00</p>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -29,7 +29,7 @@
 
             <div class="fooditem">
                 <img src="./img/Bigbucket.jpg" class="homebtmlogo" alt="">
-                <p class="foodtitle">Big Bucket</p>
+                <li class="foodtitle">Big Bucket</li>
                 <p class="fooddescription">6 Pcs. Chicken, 8 Hot Wings, 6 Krispers, 1 Pepsi 2L</p>
                 <p class="price">$3985.00</p>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -37,7 +37,7 @@
 
             <div class="fooditem">
                 <img src="./img/Popcornchicken.jpg" class="homebtmlogo" alt="">
-                <p class="foodtitle">Small Popcorn Chicken Combo</p>
+                <li class="foodtitle">Small Popcorn Chicken Combo</li>
                 <p class="fooddescription">1 Sm. Popcorn Chicken, 1 Reg. Fries, 1 Pepsi 457mL.</p>
                 <p class="price">$500.00</p>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -55,14 +55,59 @@
                         </div>
                         <div class="cart-total">
                             <strong class="cart-total-title">Total</strong>
-                            <span class="cart-total-price">$0</span>
+                            <span class="cart-total-price">$0</span><br>
+
+                            <strong class="cart-total-title">Total With Tax (16.5% GCT)</strong>
+                            <span class="cart-totaltax">$0</span><br>
+
+                            <strong class="cart-total-title">Plus Delivery Fee ($500)</strong>
+                            <span class="cart-totaltdel">$0</span>
                         </div>
-                        
+                        <hr><br>
+                        <a href="#deliveryt"><input type="button" class="btn2d" value="Complete Order" onclick="ToggleDisplay1()" ></a>
                     </div>
                 </div>
             </section>
-            <p class="menbtmtxt">Made your mind up? proceed to checkout</p>
-            <a href="./Delivery.html"><button class="menucheck">Checkout</button>
+            <section id="deliveryt" class="delivery">
+                <h1 class="deliveryhead">Please enter your delivery information</h1>
+                <form  class="deliveryform" name="Deliveryform"  onsubmit=" CompleteFormValidation(); return false">
+                    <p><span class="required">* </span>Name: <input type="text" name="" id="name"></p>
+                    <p><span class="required">* </span>Address Line 1: <input type="text" name="" id="line1"></p>
+                    <p>Address Line 2: <input type="text" name="" id="line2"></p>
+                    <p><span class="required">* </span>City: <input type="text" name="" id="city"></p>
+                    <p><span class="required">* </span>Parish: <input type="text" name="" id="parish"></p>
+                    <p><span class="required">* </span>Phone Number: <input type="text" name="" id="phone"></p>
+
+                    <p>Can`t be bothered to write all of that?</p>
+                    <input type="button" class="btn1d" value="Give Exact Location">
+                    <p>Done? Head on to</p>
+
+                    <a href="#payment"><input type="submit"  class="btn2d" value="Payment Method"></a>
+                </form>
+            </section>
+
+            <section id="payment" class="paymentpart">
+                <div class="Payment">
+                    <h1 class="paymenthead">Pay With</h1>
+                    <p class="paymentpara">🔒 Your payment is secure. Your card details will not be shared with others.</p>
+                    <div class="tinyimages">
+                        <img src="./img/Mastercard.jfif" alt="" class="cardpic" srcset="">
+                        <img src="./img/Visa.jfif" alt="" class="cardpic" srcset="">
+                        <img src="./img/American.png" alt="" class="cardpic" srcset="">
+                        <img src="./img/Discover.jfif" alt="" class="cardpic" srcset="">
+                    </div>
+                    <form action="" name="Payment" onsubmit="ValidatePayment(); return false;">
+                    <div class="paymentbody">
+                        <p><span class="required">* </span>Card Number: <input type="number" name="Card" placeholder="4000 1234 5678 9010" id="Card" maxlength="24" class="payinput"></p>
+                        <p><span class="required">* </span>Expiration Date: <input type="number" name="Expiration" id="Expiration" placeholder="MM/YY" maxlength="4" class="payinput">
+                        <p><span class="required">* </span>Security Code (CVV): <input type="number" name="CVV" minlength="3" maxlength="3" placeholder="123" id="CVV" class="payinput"></p>
+                    </div>
+                    <div class="paybtn">
+                        <input type="submit"   class="paymbtn" value="Done">
+                    </div>
+                    </form>
+                </div>
+            </section>
         </div>
         <footer class="hfoot">
             <p class="copyright">Copyright© 2022 Pedal2Medal</p>

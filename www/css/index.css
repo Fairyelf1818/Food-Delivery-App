@@ -115,6 +115,7 @@
   padding-top: 1rem;
   font-family: "Kite One", sans-serif;
   font-size: 1rem;
+  list-style: none;
 }
 .fooddescription {
   width: 75%;
@@ -149,6 +150,9 @@
 /* Menus End */
 
 /* Cart Page Begins Here*/
+.Cart-Container {
+  width: 100%;
+}
 .cart-price {
   width: 20%;
   font-size: 1.2em;
@@ -164,7 +168,7 @@
 
 .cart-item-title {
   color: #333;
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 1.2em;
 }
 .cart-row {
@@ -185,7 +189,7 @@
 }
 .cart-item-title {
   color: #333;
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 1.2em;
 }
 
@@ -202,9 +206,11 @@
 
 .cart-total-title {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1rem;
   color: black;
   margin-right: 20px;
+  font-weight: 600;
+  font-family: "Kite One", sans-serif;
 }
 
 .cart-total-price {
@@ -213,20 +219,20 @@
 }
 .btn-danger {
   color: white;
-  background-color: #EB5757;
+  background-color: #eb5757;
   border: none;
-  border-radius: .3em;
+  border-radius: 0.3em;
   font-weight: bold;
 }
 
 .btn-danger:hover {
-  background-color: #CC4C4C;
+  background-color: #cc4c4c;
 }
 .cart-quantity-input {
   height: 34px;
   width: 50px;
   border-radius: 5px;
-  border: 1px solid #56CCF2;
+  border: 1px solid #56ccf2;
   background-color: #eee;
   color: #333;
   padding: 0;
@@ -243,3 +249,119 @@
   border: none;
 }
 /* Cart Page Ends Here */
+/*Delivery Page Starts */
+.deliveryhead {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Kite One", sans-serif;
+  padding-top: 2rem;
+}
+.delivery {
+  height: 100vh;
+  display: none;
+  font-family: "Kite One", sans-serif;
+}
+.required {
+  color: red;
+}
+.deliveryform {
+  line-height: 2.3rem;
+}
+.btn1d {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 20px;
+  background: linear-gradient(to top, #46474b 0%, #1c232d 100%);
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.btn2d {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 20px;
+  background: #f48b0c;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Kite One", sans-serif;
+}
+/*Delivery Page Ends */
+/* Payment Begins Here */
+.paymentpart {
+  height: 100vh;
+  display: none;
+}
+.paymenthead {
+  font-family: "Kite One", sans-serif;
+  font-weight: 800;
+}
+.paymentpara {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+.cardpic {
+  width: 10%;
+  padding-left: 1rem;
+}
+.tinyimages {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.paymentbody {
+  line-height: 2.5rem;
+  padding-top: 3rem;
+}
+.paymbtn {
+  height: 2.5rem;
+  width: 9rem;
+  border: none;
+  color: black;
+  border-color: #f48b0c;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 20px;
+  background: #f48b0c;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Kite One", sans-serif;
+  font-weight: 600;
+}
+.paybtn {
+  padding-top: 5rem;
+}
+
+.exp-wrapper:after {
+  content: "/";
+  position: absolute;
+  color: #aaa;
+  border: 1px solid black;
+}
+
+input.exp {
+  font-family: monospace;
+  border: 1px solid black;
+  width: 3rem;
+  outline: none;
+  appearance: none;
+  font-size: 14px;
+  text-align: center;
+}
+.payinput {
+  text-align: center;
+}
+/* Payment Ends Here */
+/* Confirmation Begins Here */
+.orderconf {
+}
+
+/* Confirmation Ends Here */

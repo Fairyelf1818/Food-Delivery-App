@@ -61,20 +61,61 @@
                     <strong class="cart-total-title">Total</strong>
                     <span class="cart-total-price">$0</span>
                 </div>
+                <hr><br>
+                <a href="#deliveryt"><input type="button" class="btn2d" value="Complete Order" onclick="ToggleDisplay1()"></a>
+                </div>
+                </div>
+                </section>
+                <section id="deliveryt" class="delivery">
+                    <h1 class="deliveryhead">Please enter your delivery information</h1>
+                    <form class="deliveryform" name="Deliveryform" onsubmit=" CompleteFormValidation(); return false">
+                        <p><span class="required">* </span>Name: <input type="text" name="" id="name"></p>
+                        <p><span class="required">* </span>Address Line 1: <input type="text" name="" id="line1"></p>
+                        <p>Address Line 2: <input type="text" name="" id="line2"></p>
+                        <p><span class="required">* </span>City: <input type="text" name="" id="city"></p>
+                        <p><span class="required">* </span>Parish: <input type="text" name="" id="parish"></p>
+                        <p><span class="required">* </span>Phone Number: <input type="text" name="" id="phone"></p>
                 
-            </div>
-        </div>
-    </section>
-        <p class="menbtmtxt">Made your mind up? proceed to checkout</p>
-        <a href="./Delivery.html"><button class="menucheck">Checkout</button>
-    </div>
-   
-    <footer class="hfoot">
-        <p class="copyright">Copyright© 2022 Pedal2Medal</p>
-    </footer>
-    <script src="./js/index.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/order.js"async></script>
-</body>
-
-</html>
+                        <p>Can`t be bothered to write all of that?</p>
+                        <input type="button" class="btn1d" value="Give Exact Location">
+                        <p>Done? Head on to</p>
+                
+                        <a href="#payment"><input type="submit" class="btn2d" value="Payment Method"></a>
+                    </form>
+                </section>
+                
+                <section id="payment" class="paymentpart">
+                    <div class="Payment">
+                        <h1 class="paymenthead">Pay With</h1>
+                        <p class="paymentpara">🔒 Your payment is secure. Your card details will not be shared with others.</p>
+                        <div class="tinyimages">
+                            <img src="./img/Mastercard.jfif" alt="" class="cardpic" srcset="">
+                            <img src="./img/Visa.jfif" alt="" class="cardpic" srcset="">
+                            <img src="./img/American.png" alt="" class="cardpic" srcset="">
+                            <img src="./img/Discover.jfif" alt="" class="cardpic" srcset="">
+                        </div>
+                        <form action="" name="Payment" onsubmit="ValidatePayment(); return false;">
+                            <div class="paymentbody">
+                                <p><span class="required">* </span>Card Number: <input type="number" name="Card"
+                                        placeholder="4000 1234 5678 9010" id="Card" maxlength="24" class="payinput"></p>
+                                <p><span class="required">* </span>Expiration Date: <input type="number" name="Expiration"
+                                        id="Expiration" placeholder="MM/YY" maxlength="4" class="payinput">
+                                <p><span class="required">* </span>Security Code (CVV): <input type="number" name="CVV" minlength="3"
+                                        maxlength="3" placeholder="123" id="CVV" class="payinput"></p>
+                            </div>
+                            <div class="paybtn">
+                                <input type="submit" class="paymbtn" value="Done">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                </div>
+                <footer class="hfoot">
+                    <p class="copyright">Copyright© 2022 Pedal2Medal</p>
+                </footer>
+                <script src="./js/index.js"></script>
+                <script src="./js/script.js"></script>
+                <script src="./js/order.js" async></script>
+                </body>
+                
+                </html>
