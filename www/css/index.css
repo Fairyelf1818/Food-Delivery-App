@@ -295,6 +295,7 @@
 .paymentpart {
   height: 100vh;
   display: none;
+  padding-top: 4rem;
 }
 .paymenthead {
   font-family: "Kite One", sans-serif;
