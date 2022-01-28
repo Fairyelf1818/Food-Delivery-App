@@ -1,6 +1,6 @@
 document.getElementById("getPosition").addEventListener("click", getPosition);
 
-function getPosition() {
+function getPosition() { // Get Location
    var options = {
       enableHighAccuracy: true,
       maximumAge: 3600000
